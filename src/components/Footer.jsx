@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -8,11 +9,11 @@ const Footer = () => {
                     <div className="row g-5">
                         <div className="col-lg-3 col-md-6">
                             <h4 className="text-white mb-3">Quick Link</h4>
-                            <a className="btn btn-link" href="">About Us</a>
-                            <a className="btn btn-link" href="">Contact Us</a>
-                            <a className="btn btn-link" href="">Privacy Policy</a>
-                            <a className="btn btn-link" href="">Terms & Condition</a>
-                            <a className="btn btn-link" href="">FAQs & Help</a>
+                            <Link className="btn btn-link" to="">About Us</Link>
+                            <Link className="btn btn-link" to="">Contact Us</Link>
+                            <Link className="btn btn-link" to="">Privacy Policy</Link>
+                            <Link className="btn btn-link" to="">Terms & Condition</Link>
+                            <Link className="btn btn-link" to="">FAQs & Help</Link>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h4 className="text-white mb-3">Contact</h4>
@@ -20,10 +21,10 @@ const Footer = () => {
                             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+917370857827</p>
                             <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
                             <div className="d-flex pt-2">
-                                <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
-                                <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
+                                <Link className="btn btn-outline-light btn-social" to=""><i className="fab fa-twitter"></i></Link>
+                                <Link className="btn btn-outline-light btn-social" to=""><i className="fab fa-facebook-f"></i></Link>
+                                <Link className="btn btn-outline-light btn-social" to=""><i className="fab fa-youtube"></i></Link>
+                                <Link className="btn btn-outline-light btn-social" to=""><i className="fab fa-linkedin-in"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -63,16 +64,16 @@ const Footer = () => {
                     <div className="copyright">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                &copy; <a className="border-bottom" href="#"> eLEARNING </a>, All Right Reserved.
-                                Designed By <a className="border-bottom" href="">Gaurav Jha</a><br /><br />
-                                Distributed By <a className="border-bottom" href="">Techno College Hooghly</a>
+                                &copy; <Link className="border-bottom" to="#"> eLEARNING </Link>, All Right Reserved.
+                                Designed By <Link className="border-bottom" to="">Gaurav Jha</Link><br /><br />
+                                Distributed By <Link className="border-bottom" to="">Techno College Hooghly</Link>
                             </div>
                             <div className="col-md-6 text-center text-md-end">
                                 <div className="footer-menu">
-                                    <a href="">Home</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <Link to="">Home</Link>
+                                    <Link to="">Cookies</Link>
+                                    <Link to="">Help</Link>
+                                    <Link to="">FQAs</Link>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +81,7 @@ const Footer = () => {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Footer
+export default Footer;
