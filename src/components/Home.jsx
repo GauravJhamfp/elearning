@@ -8,22 +8,21 @@ import CourseCategorie from './CourseCategorie';
 import Service from './Service';
 import Faculty from './Faculty';
 import Testimonial from './Testimonial';
-import ContactUs from './ContactUs';
 
 
 const Home = () => {
   return (
+
     <>
-        <Navbar/>
-        <Slider/>
-        <Service/>
-        <About/>
-        <CourseCategorie/>
-        <Courses/>
-        <Faculty/>
-        <Testimonial/>
-        <ContactUs/>
-        <Footer />
+      <Navbar />
+      <Slider />
+      <Service />
+      <About />
+      <CourseCategorie />
+      <Courses />
+      <Faculty />
+      <Testimonial />
+      <Footer />
     </>
   );
 }

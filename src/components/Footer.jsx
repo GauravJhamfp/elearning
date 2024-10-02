@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6">
                             <h4 className="text-white mb-3">Quick Link</h4>
                             <Link className="btn btn-link" to="">About Us</Link>
-                            <Link className="btn btn-link" to="">Contact Us</Link>
+                            <Link className="btn btn-link" to="contactus">Contact Us</Link>
                             <Link className="btn btn-link" to="">Privacy Policy</Link>
                             <Link className="btn btn-link" to="">Terms & Condition</Link>
                             <Link className="btn btn-link" to="">FAQs & Help</Link>
@@ -72,7 +72,7 @@ const Footer = () => {
                                 <div className="footer-menu">
                                     <Link to="">Home</Link>
                                     <Link to="">Cookies</Link>
-                                    <Link to="">Help</Link>
+                                    <Link to="contactus">Help</Link>
                                     <Link to="">FQAs</Link>
                                 </div>
                             </div>

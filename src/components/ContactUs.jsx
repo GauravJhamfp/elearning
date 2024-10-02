@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const ContactUs = () => {
     const ContactUsStyle = {
@@ -6,7 +8,8 @@ const ContactUs = () => {
         height: '50px'
     }
     return (
-        <div>
+        <>
+        <Navbar />
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -53,8 +56,7 @@ const ContactUs = () => {
                                 style={{ minHeight: '300px', width: '100%', border: 0 }}
                                 allowFullScreen
                                 aria-hidden="false"
-                                tabIndex="0"
-                            ></iframe>
+                                tabIndex="0" />
 
 
                         </div>
@@ -94,7 +96,8 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            <Footer />
+        </>
     );
 }
 
