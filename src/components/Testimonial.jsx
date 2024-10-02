@@ -7,6 +7,10 @@ const Testimonial = () => {
         width: "100px",
         height: "100px"
     };
+    const TestimonialStyle2 = {
+        width: "330px",
+        marginRight: "20px"
+    };
 
     return (
         <div>
@@ -16,7 +20,7 @@ const Testimonial = () => {
                         <h6 className="section-title bg-white text-center text-primary px-3">Testimonial</h6>
                         <h1 className="mb-5">Our Students Say!</h1>
                     </div>
-                    <Carousel className="testimonial-carousel position-relative">
+                    <Carousel className="testimonial-carousel position-relative" style={TestimonialStyle2}>
                         <Carousel.Item>
                             <div className="testimonial-item text-center">
                                 <img
@@ -29,7 +33,7 @@ const Testimonial = () => {
                                 <p>Web Developer</p>
                                 <div className="testimonial-text bg-light text-center p-4">
                                     <p className="mb-0">
-                                        Don't just take our word for it! Hear from our learners about how our courses have helped them achieve their goals. Their success stories are a testament to the quality of education we strive to provide.
+                                        lets us check .
                                     </p>
                                 </div>
                             </div>

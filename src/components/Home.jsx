@@ -8,6 +8,7 @@ import CourseCategorie from './CourseCategorie';
 import Service from './Service';
 import Faculty from './Faculty';
 import Testimonial from './Testimonial';
+import ContactUs from './ContactUs';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <Courses/>
         <Faculty/>
         <Testimonial/>
+        <ContactUs/>
         <Footer />
     </>
   );
