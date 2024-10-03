@@ -1,15 +1,25 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+
 import Home from './components/Home'
 import ContactUs from './components/ContactUs'
+import Courses from './components/Courses'
 
 const App = () => {
   return (
     <>
-      <Routes>
-        <Route exact path='/' element={<Home/>} />
-        <Route exact path='/contactus' element={<ContactUs />}/>
-      </Routes>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/contactus' element={<ContactUs />} />
+          <Route exact path='/Courses' element={<Courses />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }

@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
                         <Link to="" className="nav-item nav-link active">Home</Link>
                         <Link to="" className="nav-item nav-link">About</Link>
-                        <Link to="" className="nav-item nav-link">Courses</Link>
+                        <Link to="Courses" className="nav-item nav-link">Courses</Link>
                         <div className="nav-item dropdown">
                             <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                             <div className="dropdown-menu fade-down m-0">
