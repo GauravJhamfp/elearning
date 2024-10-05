@@ -7,10 +7,6 @@ const Testimonial = () => {
         width: "100px",
         height: "100px"
     };
-    const TestimonialStyle2 = {
-        width: "330px",
-        marginRight: "20px"
-    };
 
     return (
         <div>
@@ -20,7 +16,7 @@ const Testimonial = () => {
                         <h6 className="section-title bg-white text-center text-primary px-3">Testimonial</h6>
                         <h1 className="mb-5">Our Students Say!</h1>
                     </div>
-                    <Carousel className="testimonial-carousel position-relative" style={TestimonialStyle2}>
+                    <Carousel className="testimonial-carousel position-relative" style={{width:'330px',marginLeft:'400px'}}>
                         <Carousel.Item>
                             <div className="testimonial-item text-center">
                                 <img
