@@ -37,7 +37,7 @@ return (
                                 <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
                             </div>
                         </div>
-                        <Link className="btn btn-primary py-3 px-5 mt-2" to="">Read More</Link>
+                        <Link to="about" className="btn btn-primary py-3 px-5 mt-2" >Read More</Link>
                     </div>
                 </div>
             </div>
